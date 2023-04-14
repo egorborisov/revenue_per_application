@@ -28,3 +28,25 @@ Let's confirm that this metric includes all the previously mentioned metrics. Fo
 <img src="https://cdn-images-1.medium.com/max/1600/1*Qi-PnBAF6LeOUlASI1ci5A.png"/>
 
 _Examining new paid sources of customer data can also benefit from this metric. For instance, a mobile operator is ready to provide us with an API that includes specific customer information for a fee of x dollars. By comparing this cost with the variation in revenue from the application, we can make an informed choice._
+
+### Synthetic Example
+
+Imagine a loan company implementing a scoring model to replace the manual decision-making process. Initially, they process 50% of loan applications by hand and 50% using the model, chosen randomly. Then, after a few months, they gather information about 10,000 applications for each approach and compared the outcomes.
+
+<img src="https://cdn-images-1.medium.com/max/1600/1*rBvGITO5CJJbtX2W3-TbIA.png"/>
+
+We've observed that the model outperforms the manual approach in terms of approval rate, loan disbursement, and average loan amount, but it lags behind when it comes to delinquency. What conclusion can we draw from this? To gain a better understanding, let's analyze the comprehensive metric we defined - revenue per loan application.
+
+<img src="https://cdn-images-1.medium.com/max/1600/1*Y7nIGRKe86K8FBHnIN86lA.png"/>
+
+We can see that the benefits of the model outweigh the negative impact of increased delinquency, resulting in higher profitability for the company. However, in reality, the rise in delinquency may have additional effects.
+
+### Limitations
+
+The primary drawback of this approach is the need to wait for loan payments to mature. This method is best suited for loans with short repayment periods, such as POS loans, small consumer loans, non-bank lending, and payday loans. Moreover, the revenue per loan application metric is more intricate than delinquency and has greater variability, thus requiring more data to achieve the same confidence level. This metric may be inadequate or fail to consider certain nuances, such as provisioning, collection, and so on.
+
+### Conclusion
+
+In this article, we discussed the comparison of scoring models or credit pipelines and concluded that revenue per application is a useful metric for this purpose. We explored the advantages and disadvantages of using this metric and provided an example of its application using generated data to compare two decision-making approaches.
+
+Don't hesitate to reach out to me on [LinkedIn](https://www.linkedin.com/in/egor-borisov-76196132/) if you have any additional questions.
