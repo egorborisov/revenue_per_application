@@ -1,5 +1,5 @@
 # Reimagining Credit Scoring Evaluation: "Revenue per Application"
-> [Jupyter Notebook with project](https://github.com/egorborisov/revenue_per_application/blob/main/revenue_per_application.ipynb)
+> [Jupyter Notebook with project](https://github.com/egorborisov/revenue_per_application/blob/main/revenue_per_application.ipynb) 
 > [Read story on medium](https://medium.com/)
 
 If you have a credit scoring model that requires improvement, the typical problem statement is usually phrased as either "Reduce delinquency without decreasing approval rate". The problem statement simplifies the evaluation process significantly as we only need to measure changes in one metric, assuming that all others are constant. Ans also achieving the same approval level is feasible, as we can accurately calculate it with 100% precision through a retrospective test. 
